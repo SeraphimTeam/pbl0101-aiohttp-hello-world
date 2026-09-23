@@ -15,7 +15,7 @@ async def hello(request):
 <p>#PBW3B1PBL0101</p>
 <p>{NIM}</p>
 <p>{NAMA}</p>
-<p>Framework Pilihan > Python [12] - AIOHTTP</p>
+<p>Framework Pilihan -> Python [12] - AIOHTTP</p>
 """
     return web.Response(text=html, content_type="text/html")
 
